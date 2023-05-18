@@ -19,3 +19,53 @@ from one single network). This project mainly emphasizes upon the study of
 router device, its top-level architecture, and how various sub-modules of router 
 i.e., Register, FIFO, FSM, and Synchronizer are synthesized, and simulated and 
 finally connected to its top module
+
+Modules in Router Design
+•	FIFO- First-in First-out
+There are 3 FIFO used in the Router design.
+The module includes. 
+RTL design. 
+Testbench
+Simulation 
+Synthesis
+
+•	FSM controller – Finite State Machine
+There are 3 FIFO used in the Router design.
+The module includes. 
+RTL design. 
+Testbench
+Simulation 
+Synthesis
+
+•	Register Block 
+This module has 4 internal registers namely. 
+hold_header_byte,
+fifo_full_state_byte,
+internal_parity,
+packet_parity
+The module includes. 
+RTL design. 
+Testbench
+Simulation 
+Synthesis
+
+•	Synchronizer Block
+This block synchronize the clock signals of all the module.
+The module includes. 
+RTL design. 
+Testbench
+Simulation 
+Synthesis
+
+•	Top Module
+This is the interconnected circuit of all the Blocking creating a Router.
+This block synchronizes the clock signals of all the module.
+The module includes. 
+RTL design. 
+Testbench
+Simulation 
+Synthesis
+
+top module
+![image](https://github.com/SSJ2085/Router-1x3/assets/67045170/10e6e750-1b0c-4f16-b95a-16b969bc6df8)
+
